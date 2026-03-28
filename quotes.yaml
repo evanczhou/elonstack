@@ -126,8 +126,8 @@
   section: "Simplicity Wins"
   tags: [tesla, model-3, design, complexity, local-optimization]
 
-- id: ii-volume-limit-test
-  model: idiot_index
+- id: til-volume-limit-test
+  model: think_in_limits
   quote: "Ask, 'If our volume was a million units per year, would it still be expensive?' If it's still expensive at a million units a year, then volume is not the reason why your part is expensive. Maybe something's wrong with the design. Maybe you can change the part to something not fundamentally expensive. That's thinking about things to the limit."
   context: Using limit-thinking to diagnose whether cost is from design or volume
   section: "Thinking in Limits"
@@ -286,12 +286,19 @@
   section: "Attack the Constraint"
   tags: [supply-chain, risk, concrete-example, constraints]
 
+- id: bot-eureka-myth
+  model: bottleneck
+  quote: "This is underappreciated. People think there is a 'eureka' moment where you come up with an idea and that's it. They believe design is the hard part and production is just making copies. That's completely false."
+  context: Debunking the myth that the idea is the hard part
+  section: "Attack the Constraint"
+  tags: [manufacturing, design, difficulty]
+
 - id: bot-design-overrated
   model: bottleneck
-  quote: "This is underappreciated. People think there is a 'eureka' moment where you come up with an idea and that's it. They believe design is the hard part and production is just making copies. That's completely false. Design is overrated, and manufacturing is underrated. There is 1,000 percent, maybe 10,000 percent more work that goes into the production system than the product itself. Especially for a product with new technology. The difficulty of manufacturing is proportionate to the amount of new technology in the product."
-  context: Identifying manufacturing—not design—as the true bottleneck at scale
+  quote: "Design is overrated, and manufacturing is underrated. There is 1,000 percent, maybe 10,000 percent more work that goes into the production system than the product itself. Especially for a product with new technology. The difficulty of manufacturing is proportionate to the amount of new technology in the product."
+  context: Quantifying the manufacturing vs design effort ratio
   section: "Attack the Constraint"
-  tags: [manufacturing, design, difficulty, scale]
+  tags: [manufacturing, design, scale]
 
 - id: bot-manufacturing-effort-raptor
   model: bottleneck
@@ -364,3 +371,10 @@
   context: Identifying wishful thinking as the primary failure mode in reasoning
   section: "Obsess over Truth"
   tags: [truth, bias, self-awareness, decision-making]
+
+- id: cc-nobody-forty-hours
+  model: cross_cutting
+  quote: "Nobody ever changed the world on forty hours a week."
+  context: On the intensity required for ambitious work
+  section: "Work like Hell"
+  tags: [work-ethic, intensity, ambition]
