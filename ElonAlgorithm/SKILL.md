@@ -1,5 +1,5 @@
 ---
-name: TheAlgorithm
+name: ElonAlgorithm
 description: Run any process, product, or workflow through Elon Musk's 5-step engineering algorithm. Grounded in his actual words from The Book of Elon.
 ---
 
