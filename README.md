@@ -30,7 +30,7 @@ One command. Five passes. An Idiot Index score.
 
 ### Individual skills
 
-Use these when you know exactly which mental model you need:
+Use these when you know exactly which mental model you need. `/ElonBrain` gives you breadth (5 compact passes). Individual skills give you depth (one pass, fully expanded with follow-up questions and action framing).
 
 | Skill | What it does |
 |-------|-------------|

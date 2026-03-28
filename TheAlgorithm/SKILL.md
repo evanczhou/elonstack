@@ -100,4 +100,12 @@ QUOTES:
 - id: alg-deletion-rampage
   quote: "We are on a deletion rampage! Nothing is sacred. We will delete any remotely questionable tubes, sensors, manifolds tonight. Please go ultrahardcore on deletion and simplification."
   tags: [spacex, deletion, urgency]
+
+- id: alg-simplicity-wins
+  quote: "Every decision we made in early SpaceX designs has been with simplicity in mind. Simplicity both improves reliability and reduces cost. Fewer components means fewer components to buy and fewer components that can go wrong. The best part is no part. The best process is no process."
+  tags: [spacex, simplicity, reliability, cost]
+
+- id: alg-turntable-elimination
+  quote: "A robot would put a car frame on a turntable. The turntable would rotate and then another robot would pick it up. The problem was the turntable would sometimes break down. So, we eliminated the turntable. With a robot-to-robot handoff, we had one less step, less equipment, and didn't have turntable breakage to consider. It's a lot of this really simple stuff, but a thousand times."
+  tags: [tesla, manufacturing, simplicity, concrete-example]
 ```

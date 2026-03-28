@@ -1,0 +1,4 @@
+# Source material (not part of the distributable skill pack)
+*.epub
+book-of-elon/
+.DS_Store
