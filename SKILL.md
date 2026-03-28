@@ -1,6 +1,6 @@
 ---
 name: elonstack
-description: Run any problem through Elon Musk's 5-pass mental model pipeline. Produces a physics-based analysis with Idiot Index score. Grounded in Elon's actual words from The Book of Elon. Sub-skills available at /FirstPrinciples, /IdiotIndex, /TheAlgorithm, /ThinkInLimits, /BottleneckAttack.
+description: Run any problem through Elon Musk's 6-pass mental model pipeline. Produces a physics-based analysis with Idiot Index score, then fact-checks key assumptions via web research. Grounded in Elon's actual words from The Book of Elon. Sub-skills available at /FirstPrinciples, /IdiotIndex, /TheAlgorithm, /ThinkInLimits, /BottleneckAttack.
 ---
 
 # ElonBrain
@@ -25,7 +25,7 @@ The user describes their product, startup, process, or engineering problem. If t
 
 ## The Pipeline
 
-Run all 5 passes in order. Each pass builds on the previous. Do not skip passes.
+Run all 6 passes in order. Passes 1-5 are analysis. Pass 6 is verification via web research. Do not skip passes.
 
 ---
 
@@ -347,6 +347,32 @@ CROSS_CUTTING_QUOTES:
 
 ---
 
+### PASS 6: REALITY CHECK
+
+After completing passes 1-5, extract every factual claim you made and verify the most important ones via web search. This is the credibility layer.
+
+**Process:**
+
+1. Scan your passes 1-5 output. List every specific factual claim: cost estimates, team size assumptions, scaling numbers, market assertions, competitor references, technology capabilities.
+2. Rank claims by impact: which ones, if wrong, would change the Idiot Index or the recommended action?
+3. Research the top 3-5 highest-impact claims using WebSearch. Search for: real-world benchmarks, pricing pages, engineering blog posts, case studies, industry reports.
+4. For each researched claim, report: what you assumed, what you found, the source, and whether the original analysis changes.
+5. If any finding changes the Idiot Index by more than 2x, recompute it.
+6. If any finding invalidates a pass's conclusion, flag it explicitly.
+
+**What to research (examples by pass):**
+- Pass 1 claims: "the irreducible components are X" ... is that actually true for this industry?
+- Pass 2 claims: "physics-optimal is $X/mo" ... what do real companies at this scale actually spend?
+- Pass 3 claims: "delete this feature/role" ... are there regulatory or technical reasons it must exist?
+- Pass 4 claims: "at 1000x, this breaks" ... do real companies at that scale confirm this?
+- Pass 5 claims: "the bottleneck is X" ... what do practitioners in this space say the actual bottleneck is?
+
+**Output:** A table of researched claims with verdicts, then a revised Idiot Index if needed.
+
+> "It's OK to be wrong. Just don't be confident and wrong."
+
+---
+
 ## Output Format
 
 Produce output in EXACTLY this format:
@@ -395,11 +421,27 @@ PASS 5: BOTTLENECK
 
 > "[Selected Elon quote]"
 
+PASS 6: REALITY CHECK
+Verifying key assumptions...
+
+| Claim | Assumed | Researched | Source | Verdict |
+|-------|---------|------------|--------|---------|
+| [claim 1] | [what you said] | [what you found] | [source] | Confirmed / Revised / Unverified |
+| [claim 2] | ... | ... | ... | ... |
+| [claim 3] | ... | ... | ... | ... |
+
+REVISED IDIOT INDEX: [number]x (was [original]x)
+[1 sentence explaining what changed and why, or "No revision needed" if research confirmed estimates]
+
+> "It's OK to be wrong. Just don't be confident and wrong."
+
 =========================================
-VERDICT: [1-2 sentence synthesis]
-IDIOT INDEX: [number]x
+VERDICT: [1-2 sentence synthesis incorporating researched data]
+IDIOT INDEX: [number]x (verified)
 ACTION: [The one thing to do next]
 =========================================
 ```
 
-Every pass MUST include exactly one Elon quote. Select the quote whose tags best match the user's problem domain. Never invent quotes. Only use quotes from the pools above.
+Passes 1-5 MUST each include exactly one Elon quote from the pools above. Pass 6 uses the cross-cutting quote about being wrong. Select quotes whose tags best match the user's problem domain. Never invent quotes.
+
+Pass 6 MUST use WebSearch to verify claims. Do not skip the research step. If WebSearch is unavailable, note "Research unavailable, estimates unverified" and proceed without revising.
