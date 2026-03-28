@@ -2,3 +2,7 @@
 *.epub
 book-of-elon/
 .DS_Store
+
+# Dev artifacts
+Plans/
+docs/
