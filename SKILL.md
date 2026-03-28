@@ -3,7 +3,7 @@ name: elonstack
 description: Run any problem through Elon Musk's 6-pass mental model pipeline. Produces a physics-based analysis with Idiot Index score, then fact-checks key assumptions via web research. Grounded in Elon's actual words from The Book of Elon. Sub-skills available at /FirstPrinciples, /IdiotIndex, /TheAlgorithm, /ThinkInLimits, /BottleneckAttack.
 ---
 
-# ElonBrain
+# ElonStack
 
 Run any product, startup, process, or engineering problem through Elon Musk's mental model pipeline. Five sequential passes strip away layers of conventional thinking and reveal the physics of your problem.
 
@@ -378,7 +378,7 @@ After completing passes 1-5, extract every factual claim you made and verify the
 Produce output in EXACTLY this format:
 
 ```
-ELONBRAIN ANALYSIS: [Problem Title]
+ELONSTACK ANALYSIS: [Problem Title]
 =========================================
 
 PASS 1: FIRST PRINCIPLES

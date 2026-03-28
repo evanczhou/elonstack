@@ -32,7 +32,7 @@ Download the repo as `.zip` and upload via Claude Admin Settings. Deploys to all
 One command. Five passes. An Idiot Index score.
 
 ```
-/ElonBrain My SaaS has 3 engineers, $15k/mo infra, charges $50/mo, and growth is stalling
+/elonstack My SaaS has 3 engineers, $15k/mo infra, charges $50/mo, and growth is stalling
 ```
 
 **The 5 passes:**
@@ -45,7 +45,7 @@ One command. Five passes. An Idiot Index score.
 
 ### Individual skills
 
-Use these when you know exactly which mental model you need. `/ElonBrain` gives you breadth (5 compact passes). Individual skills give you depth (one pass, fully expanded with follow-up questions and action framing).
+Use these when you know exactly which mental model you need. `/elonstack` gives you breadth (5 compact passes). Individual skills give you depth (one pass, fully expanded with follow-up questions and action framing).
 
 | Skill | What it does |
 |-------|-------------|
@@ -58,7 +58,7 @@ Use these when you know exactly which mental model you need. `/ElonBrain` gives 
 ## Example Output
 
 ```
-ELONBRAIN ANALYSIS: SaaS with stalling growth
+ELONSTACK ANALYSIS: SaaS with stalling growth
 =========================================
 
 PASS 1: FIRST PRINCIPLES
