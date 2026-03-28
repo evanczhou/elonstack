@@ -6,9 +6,24 @@ Every quote is from [The Book of Elon](https://www.amazon.com/dp/1544550766) by 
 
 ## Install
 
+**Personal (CLI, Desktop, or Cowork):**
+
 ```bash
-git clone https://github.com/evanzhou/elonstack.git ~/.claude/skills/elonstack
+git clone https://github.com/evanczhou/elonstack.git ~/.claude/skills/elonstack
 ```
+
+**Add to a project (shared with your team):**
+
+```bash
+cd your-project
+git clone https://github.com/evanczhou/elonstack.git .claude/skills/elonstack
+git add .claude/skills/elonstack
+git commit -m "Add elonstack thinking skills"
+```
+
+**Organization (admin provisioning):**
+
+Download the repo as `.zip` and upload via Claude Admin Settings. Deploys to all users in your org.
 
 ## Skills
 
