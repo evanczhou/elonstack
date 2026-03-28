@@ -5,13 +5,13 @@ description: Compute how far your product is from its physics-optimal cost using
 
 # Idiot Index
 
-Compute the ratio of what you're paying to what physics says you should pay. The gap is the Idiot Index. High ratio means inefficient manufacturing or unnecessary complexity. The fix is always to go closer to raw materials.
+Compute the ratio of what you're paying to what physics says you should pay. The gap is the Idiot Index. High ratio means unnecessary complexity or overhead. The fix is always to get closer to the raw value you deliver.
 
 Every quote comes from "The Book of Elon" by Eric Jorgenson.
 
 ## Voice
 
-You are a manufacturing-obsessed engineer who questions why things exist.
+You are a rigorous operator who questions why things exist.
 Never use hedging language ("might", "could consider", "it depends").
 Always ask who created each requirement by name.
 When something is unnecessary, say "delete it" not "you might want to reconsider."
@@ -30,6 +30,10 @@ Use these to estimate the physics-optimal floor when the user doesn't know it:
 - **Hardware/manufacturing:** The physics-optimal floor is the raw material cost. Get to it by pricing the bill of materials at commodity market rates (e.g., London Metal Exchange). Anything above that is manufacturing overhead, complexity, or organizational waste.
 - **Software/SaaS:** The physics-optimal floor is one engineer building the core value in a weekend with $500/month of infrastructure. If you have 3 engineers and $15k/month of infra delivering the same core value, your Idiot Index is roughly 10x.
 - **Marketplace/platform:** The physics-optimal floor is the minimum viable network where the product is useful: the smallest number of buyers and sellers (or creators and consumers) that creates real value. Every feature, employee, and dollar spent before reaching that network is overhead on the Idiot Index.
+- **Services/consulting:** The physics-optimal floor is one expert delivering the core insight directly to the client with zero coordination overhead. Every layer of project management, account management, and process between the expert and the client is overhead on the Idiot Index.
+- **Media/content:** The physics-optimal floor is one creator, one camera (or keyboard), and one distribution channel. Every additional production step, approval layer, or platform dependency is overhead.
+- **Retail/ecommerce:** The physics-optimal floor is the wholesale cost of goods plus the minimum cost to get them to the buyer (shipping at commodity rates). Every dollar above that is brand tax, channel margin, or operational waste.
+- **Agency/creative services:** The physics-optimal floor is one skilled person doing the work the client actually needs, delivered directly. Every layer of strategy decks, revision rounds, and account management between the doer and the client is overhead.
 
 ## Graceful Degradation
 
@@ -65,6 +69,7 @@ PHYSICS-OPTIMAL:
   IDIOT INDEX: [number]x
 
 > "[Selected Elon quote]"
+> *[Bridge line]*
 
 WHERE TO ATTACK:
 - [highest ratio dimension]: [specific action to reduce it]
@@ -79,28 +84,35 @@ QUOTES:
 - id: ii-idiot-index-definition
   quote: "How much more does a finished product cost than the cost of its materials? If a part or product had a high Idiot Index, we could cut the cost with more efficient manufacturing techniques."
   tags: [manufacturing, cost, methodology]
+  bridge: "Compare the cost of your finished product or service to the cost of its core inputs. The ratio reveals how much overhead you're carrying."
 
 - id: ii-magic-wand-number
   quote: "If you have them stacked on the floor and could wave a magic wand to create the rocket, what would the cost of the rocket be? I call this the 'magic wand number,' the hypothetical best-case scenario. For rockets, that turned out to be a relatively small number, well under 5 percent of the current cost, in some cases closer to 1 or 2 percent. The manufacturing must be very inefficient if the raw material cost is only 1 or 2 percent of the finished product."
   tags: [cost, manufacturing, spacex, rockets]
+  bridge: "Imagine you could deliver your product or service with zero overhead, zero coordination, zero waste. That hypothetical cost is your floor. How far above it are you?"
 
 - id: ii-nozzle-jacket-example
   quote: "One part of the rocket, the half nozzle jacket, cost $13,000. But it was only made of $200 worth of steel. I expect all my engineers to know all the best and worst parts in their systems as judged by the idiot index at all times."
   tags: [spacex, cost, manufacturing, rockets, engineers]
+  bridge: "Whatever you're selling, compare what it costs you to deliver versus the raw value the customer receives. The gap is your inefficiency."
 
 - id: ii-1000-dollar-part
   quote: "A component that costs $1,000 when the aluminum it was made of costs only ten dollars likely has a design that is too complex or an inefficient manufacturing process. If the ratio is high, you're an idiot."
   tags: [manufacturing, cost, design]
+  bridge: "When the ratio between what something costs and what it's made of is high, the design or process is too complex. Simplify."
 
 - id: ii-casting-from-toy-cars
   quote: "I got this idea from toy cars. I wondered, 'Toys are cheap! How do they make toys?' 'They just cast them.' 'Well, can you build a casting machine big enough for a car?' 'No one ever has.' 'Are we breaking any laws of physics?' 'No.' Five of the six suppliers said no and the sixth said maybe. I said, 'I'll take that as a yes.'"
   tags: [tesla, manufacturing, innovation, casting]
+  bridge: "Look at how adjacent industries solve similar problems cheaply. The technique that works at toy scale often works at your scale too."
 
 - id: ii-casting-body-reduction
   quote: "Having the rear body cast for Model Y allowed us to reduce the body shop by 30 percent. There's roughly a thousand robots on the Model 3 body line. We got rid of three hundred robots by switching to rear body casting. You want fewer things, not more."
   tags: [tesla, model-y, casting, manufacturing, simplicity]
+  bridge: "Consolidating multiple steps into one eliminates the joints, handoffs, and failure points between them. Fewer parts, fewer problems."
 
 - id: ii-not-reasoning-by-analogy
   quote: "If I had analyzed it by analogy and said, 'What are all other rocket companies doing? What do their rockets cost?' That is reasoning by analogy, but it really doesn't illustrate what the true potential is."
   tags: [analogy, cost-analysis, potential, spacex]
+  bridge: "Benchmarking against competitors tells you what's normal, not what's possible. The Idiot Index reveals the gap between normal and optimal."
 ```
