@@ -1,6 +1,6 @@
 ---
-name: ElonBrain
-description: Run any problem through Elon Musk's 5-pass mental model pipeline. Produces a physics-based analysis with Idiot Index score. Grounded in Elon's actual words from The Book of Elon.
+name: elonstack
+description: Run any problem through Elon Musk's 5-pass mental model pipeline. Produces a physics-based analysis with Idiot Index score. Grounded in Elon's actual words from The Book of Elon. Sub-skills available at /FirstPrinciples, /IdiotIndex, /TheAlgorithm, /ThinkInLimits, /BottleneckAttack.
 ---
 
 # ElonBrain

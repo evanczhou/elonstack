@@ -27,7 +27,7 @@ Download the repo as `.zip` and upload via Claude Admin Settings. Deploys to all
 
 ## Skills
 
-### /ElonBrain (the full pipeline)
+### /elonstack (the full pipeline)
 
 One command. Five passes. An Idiot Index score.
 
