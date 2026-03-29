@@ -1,6 +1,6 @@
 # elonstack
 
-Five mental models from Elon Musk, each as a standalone Claude Code skill. Grounded in his actual words from [The Book of Elon](https://www.amazon.com/dp/1544550766) by Eric Jorgenson. Real quotes, not AI cosplay.
+Five mental models from Elon Musk, each as a standalone Claude Code skill. Grounded in his actual words from [The Book of Elon](https://www.elonmuskbook.org/) by Eric Jorgenson. Real quotes, not AI cosplay.
 
 ## Skills
 
@@ -37,7 +37,9 @@ Skills nested in a project directory are available as `/elonstack:FirstPrinciple
 
 ## Source
 
-All quotes from "The Book of Elon" by Eric Jorgenson. Passages quoted under fair use for educational purposes in an open source tool.
+All quotes from [The Book of Elon](https://www.elonmuskbook.org/) by [Eric Jorgenson](https://x.com/EricJorgworthy). Passages quoted under fair use for educational purposes in an open source tool.
+
+[Buy the book](https://www.elonmuskbook.org/) | [Follow Eric on X](https://x.com/EricJorgworthy)
 
 ## License
 
